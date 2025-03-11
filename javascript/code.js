@@ -1,3 +1,10 @@
+/*
+ 0 = PEDRA
+ 1 = PAPEL
+ 2 = TESOURA
+*/
+
+//ESCOLHA ALEATORIA DO COMPUTADOR (DE 0 A 2)
 const player = 0;
 const computer = Math.floor(Math.random() * 3);
 
